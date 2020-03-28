@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature name="ejemplocajeroautomatico"/>
+	<feature name="Transacciones"/>
+	<feature name="ConsultarSaldo"/>
+	<feature name="HacerRetiros"/>
+	<feature name="TransaccionesEntreCuentas"/>
+	<feature name="HacerTransferencia"/>
+	<feature name="RealizarConsignacion"/>
+	<feature name="Auditoria"/>
+	<feature name="ListadoOperaciones"/>
+	<feature name="ArchivoAuditoria"/>
+	<feature name="SaldoReducido"/>
+</configuration>
