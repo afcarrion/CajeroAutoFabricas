@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <configuration>
-	<feature name="ejemplocajeroautomatico"/>
-	<feature name="Transacciones"/>
-	<feature name="ConsultarSaldo"/>
-	<feature name="HacerRetiros"/>
+	<feature automatic="selected" name="ejemplocajeroautomatico"/>
+	<feature automatic="selected" name="Transacciones"/>
+	<feature automatic="selected" name="ConsultarSaldo"/>
+	<feature automatic="selected" name="HacerRetiros"/>
 	<feature name="TransaccionesEntreCuentas"/>
 	<feature name="HacerTransferencia"/>
 	<feature name="RealizarConsignacion"/>
-	<feature name="Auditoria"/>
-	<feature name="ListadoOperaciones"/>
+	<feature automatic="selected" name="Auditoria"/>
+	<feature automatic="selected" name="ListadoOperaciones"/>
 	<feature name="ArchivoAuditoria"/>
 	<feature name="SaldoReducido"/>
 </configuration>

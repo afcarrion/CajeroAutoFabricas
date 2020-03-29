@@ -1,5 +1,4 @@
 import java.util.Collection;
-import java.util.List;
 
 import ejemplo.cajero.modelo.Banco;
 import ejemplo.cajero.modelo.Cuenta;
@@ -42,7 +41,7 @@ public aspect ListadoOperaciones {
 	after() throwing(Throwable e) : metodosDeTransacciones() {
 		System.out.println("*****Ejecutando log de Auditoria Cuentas Despues de  las transacciones*****");
 		System.out.println("*****No se realizo la transaccion *****");
-		System.out.println("Retornando con Excepción");
+		System.out.println("Retornando con Excepción \t");
 	    System.out.println("\t excepción : " + e.getMessage());
 	    System.out.println("****Fin del Log*****");
 	}
